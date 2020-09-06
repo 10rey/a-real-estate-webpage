@@ -400,3 +400,104 @@ header ul li.is-sticky li a.active {
 }
 
 /*end: best real estate company styles*/
+
+/*start: services styles*/
+
+#services {
+	background: #f8f9fa;
+	padding: 6rem 0;
+	margin: 8rem 0;
+	border-bottom: 1px solid #dce2e6
+}
+
+#services h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+#services .flex {
+	flex-wrap: wrap;
+}
+
+#services .flex > div {
+	width: 30%;
+	margin-bottom: 2rem;
+}
+
+#services .flex > div .fas {
+	color: #f69314;
+	font-size: 40px;
+	float: left;
+	margin-top: 15px;
+	width: 20%;
+	text-align: center;
+}
+
+#services .flex > div .services-card-right {
+	float: right;
+	width: 75%;
+}
+
+#services .flex > div a {
+	color: #f69314;
+	text-decoration: none;
+}
+
+#services .flex > div a:hover {
+	text-decoration: underline;
+}
+
+/*end: services styles*/
+
+/*start: testimonials styles*/
+
+#testimonials {
+	margin-bottom: 8rem;
+}
+
+#testimonials h2 {
+	text-align: center;
+}
+
+#testimonials-slider .slick-slide {
+	text-align: center;
+}
+
+#testimonials-slider blockquote {
+	font-style: 1.5rem;
+	font-style: italic;
+	margin: 1rem auto 3rem;
+	max-height: 740px;
+}
+
+#testimonials-slider .testimonials-caption {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+	float: left;
+	border-radius: 30px;
+	width: 60px;
+}
+
+.testimonials-caption p {
+	position: relative;
+	top: 13px;
+	font-size: 1.2rem;
+}
+
+#testimonials-slider .slick-arrow {
+	text-decoration: none;
+	position: absolute;
+	font-size: 40px;
+	color: #222;
+	top: 50%;
+	margin-top: -35px;
+}
+
+#testimonials-slider .slick-next {
+	right: 0;
+}
+
+/*end: testimonials styles*/
