@@ -166,8 +166,8 @@ header ul li a.active {
 }
 
 
-header ul li.is-sticky li a:hover,
-header ul li.is-sticky li a.active {
+header ul.is-sticky li a:hover,
+header ul.is-sticky li a.active {
 	color: #f69314;
 }
 
@@ -330,7 +330,7 @@ header ul li.is-sticky li a.active {
 
 #properties button.rounded {
 	display: block;
-	margin: 2rem autp 0;
+	margin: 2rem auto 0;
 	width: 350px;
 }
 
@@ -494,6 +494,7 @@ header ul li.is-sticky li a.active {
 	color: #222;
 	top: 50%;
 	margin-top: -35px;
+	z-index: 1;
 }
 
 #testimonials-slider .slick-next {
