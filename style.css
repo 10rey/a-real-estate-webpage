@@ -21,6 +21,7 @@ except with class mention*/
 *:not(.slick-track):not(.slick-list){
 	transition: 0.4s;
 }
+
 .container{
 	max-width: 1140px;
 	margin: 0 auto;
@@ -176,7 +177,8 @@ header ul.is-sticky li a.active {
 /*start: hero section styles*/
 
 #hero {
-	background: url('https://source.unsplash.com/random/221x200')
+	/*background: url('https://source.unsplash.com/random/221x200')*/
+	background: url('https://source.unsplash.com/1600x900/?house, property')
 	center center no-repeat;
 	background-size: cover;
 	position: absolute;
